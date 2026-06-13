@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,37 +7,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Hi Everyone, I am{" "}
+            <span className="purple">Kammari Vidyasri </span>
+            from India.
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            I am currently pursuing my <span className="purple">B.Tech in Computer Science and Engineering</span> at
+            <span className="purple"> Amrita Vishwa Vidyapeetham, Bengaluru</span>.
+            <br />
+            <br />
+            My areas of interest include{" "}
+            <span className="purple">
+              Software Development, Cloud Computing, Backend Development,
+              Distributed Systems, Cybersecurity, and Machine Learning.
+            </span>
+            <br />
+            <br />
+            I have worked on several projects including:
+            <br />
+            <br />
+            • ResQLink for Crowdsourced Crisis Response Platform
+            <br />
+            • Digital Twin Framework for Urban Infrastructure Resilience
+            <br />
+            • Carbon Credit-Aware Task Scheduling for Sustainable Cloud Services
+            
+            
+            <br />
+            <br />
+            Apart from academics, I enjoy learning new technologies,
+            participating in hackathons, exploring cloud platforms,
+            and building innovative software solutions.
           </p>
-
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
-            </li>
-          </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
@@ -46,3 +46,4 @@ function AboutCard() {
 }
 
 export default AboutCard;
+

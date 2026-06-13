@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/vidyasri.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -10,43 +10,54 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
+
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Hi, I'm <b className="purple">Kammari Vidyasri</b>, a Computer
+              Science undergraduate at Amrita Vishwa Vidyapeetham with a strong
+              passion for Software Development, Cloud Computing, and Backend
+              Engineering.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+              I am proficient in{" "}
+              <b className="purple">
+                Python, C++, JavaScript, Data Structures & Algorithms,
+                Database Management Systems, and REST APIs
+              </b>
+              .
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              My primary areas of interest include{" "}
+              <b className="purple">
+                Software Engineering, Cloud Computing, Distributed Systems,
+                Backend Development, and Sustainable Computing
+              </b>
+              .
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I have worked on impactful projects such as{" "}
+              <b className="purple">
+                ResQLink, Digital Twin Framework, and Carbon Credit-Aware Task
+                Scheduling for Sustainable Cloud Services
+              </b>
+              .
+              <br />
+              <br />
+              I enjoy building scalable applications using{" "}
+              <b className="purple">Python, React.js, and Node.js</b> while
+              exploring cloud technologies such as{" "}
+              <b className="purple">
+                AWS, Docker, Kubernetes, PostgreSQL, and Firebase
+              </b>
+              .
+              <br />
+              <br />
+              My goal is to contribute to innovative software products while
+              continuously learning and growing as a Software Engineer.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -57,4 +68,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
